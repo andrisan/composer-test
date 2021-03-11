@@ -1,5 +1,5 @@
 {
-	"name": "andrisan/rest-flame",
+	"name": "andrisan/composer-test",
 	"type": "library",	
 	"description": "Composer Test.",
 	"keywords": [
@@ -13,7 +13,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"RestFlame\\Auth\\": "src"
+			"Andrisan\\ComposerTest\\": "randomFolder"
 		},
 		"exclude-from-classmap": [
 			"**/Database/Migrations/**"
