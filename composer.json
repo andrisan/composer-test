@@ -1,7 +1,7 @@
 {
 	"name": "andrisan/rest-flame",
 	"type": "library",	
-	"description": "Auth library for CodeIgniter 4 REST server.",
+	"description": "Composer Test.",
 	"keywords": [
 		"codeigniter",
 		"rest-server-auth"
