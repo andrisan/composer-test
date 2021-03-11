@@ -1,8 +1,9 @@
 {
     "name": "andrisan/composer-test",
+    "type": "library",
     "description": "A short description of what your package does",
     "require": {
-        "php": ">=7.3",
+        "php": "^7.3 || ^8.0",
         "firebase/php-jwt": "^5.2"
     }
 }
