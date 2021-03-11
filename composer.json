@@ -1,10 +1,22 @@
 {
-    "name": "andrisan/composer-test",
-    "type": "library",
-    "minimum-stability": "stable",
-    "description": "A short description of what your package does",
-    "require": {
-        "php": "^7.3 || ^8.0",
+	"name": "andrisan/rest-flame",
+	"type": "library",
+	"description": "Auth library for CodeIgniter 4 REST server.",
+	"keywords": [
+		"codeigniter",
+		"rest-server-auth"
+	],
+	"license": "MIT",
+	"require": {
+		"php": "^7.3 || ^8.0",
         "firebase/php-jwt": "^5.2"
-    }
+	},
+	"autoload": {
+		"psr-4": {
+			"RestFlame\\Auth\\": "src"
+		},
+		"exclude-from-classmap": [
+			"**/Database/Migrations/**"
+		]
+	}
 }
