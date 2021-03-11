@@ -1,7 +1,6 @@
 {
 	"name": "andrisan/rest-flame",
-	"type": "library",
-	"version": "3.1.7",
+	"type": "library",	
 	"description": "Auth library for CodeIgniter 4 REST server.",
 	"keywords": [
 		"codeigniter",
